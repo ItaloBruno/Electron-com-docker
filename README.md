@@ -15,6 +15,7 @@ Para a execução deste exemplo, você precisa ter o [Docker](https://www.docker
 ## Execução
 ---
 Para a execução utilizando o docker-compose, digite o seguinte comando no terminal:
+
 ` docker-compose up `
 
  ## Observações
