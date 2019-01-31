@@ -11,4 +11,4 @@ RUN apt-get update && \
 
 RUN npm install -g electron@4.0.0 --unsafe-perm=true
 
-CMD ["electron", "."]
+CMD ["/usr/local/lib/node_modules/electron/dist/electron"]

@@ -3,8 +3,7 @@ services:
   electronjs:
     build: .
     environment:
-      DISPLAY:
-      # net: "host"
+      - DISPLAY:${DISPLAY}
+      - net:"host"
     volumes:
-      - /tmp/.X11-unix:/tmp/.X11-unix
-      # - /.Xauthority:/root/.Xauthority:rw
+      - "$HOME/.Xauthority:/root/.Xauthority:rw"
