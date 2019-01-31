@@ -1,0 +1,10 @@
+version: '3'
+services:
+  electronjs:
+    build: .
+    environment:
+      DISPLAY:
+      # net: "host"
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      # - /.Xauthority:/root/.Xauthority:rw
