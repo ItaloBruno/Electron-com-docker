@@ -21,6 +21,6 @@ Para a execução utilizando o docker-compose, digite o seguinte comando no term
  ---
  A última tentativa de rodar a aplicação apresentou o seguinte erro:
 
- ![alt text](https://github.com/ItaloBruno/Electron-com-docker/img/terminal.png "Erro ao rodar com o docker compose")
+ ![alt text](https://github.com/ItaloBruno/Electron-com-docker/blob/master/img/terminal.png "Erro ao rodar com o docker compose")
 
  Estou pesquisando mais a cerca do assunto e tentando encontrar alguma solução :D
