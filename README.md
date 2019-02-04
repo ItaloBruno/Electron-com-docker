@@ -10,11 +10,9 @@
  Bem, esse repositório é uma tentativa de rodar o [ElectronJS](https://electronjs.org/) v4.0.0 usando o Docker.
 
 ## Dependências
----
 Para a execução deste exemplo, você precisa ter o [Docker](https://www.docker.com/) e/ou [Docker Compose](https://docs.docker.com/compose/) instalados em sua máquina.
 
 ## Execução
----
 Existem dois modos de realizar a execução do ElectronJS: usando o Docker ou o Docker Compose.
 
 1. ### Docker
@@ -31,10 +29,10 @@ Para a execução utilizando o docker-compose, digite o seguinte comando no term
 
 ` docker-compose up `
 
- ## Observações
- ---
- A última tentativa de rodar a aplicação através do Docker Compose apresentou o seguinte erro:
+Ele irá criar a imagem do electronjs especificada no Dockerfile e depois irá subir um container baseado nesta imagem, abrindo assim a sua interface gráfica.
+
+Caso o erro mostrado na imagem abaixo apareça em seu terminal, execute:
+
+`xhost + `
 
  ![alt text](https://github.com/ItaloBruno/Electron-com-docker/blob/master/img/terminal.png "Erro ao rodar com o docker compose")
-
- Estou pesquisando mais a cerca do assunto e tentando encontrar alguma solução :D

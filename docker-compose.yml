@@ -1,9 +1,9 @@
 version: '3'
 services:
   electronjs:
+    image: electronjs
     build: .
     environment:
-      - DISPLAY:${DISPLAY}
-      - net:"host"
+      - DISPLAY=${DISPLAY}
     volumes:
-      - "$HOME/.Xauthority:/root/.Xauthority:rw"
+      - /tmp/.X11-unix:/tmp/.X11-unix
